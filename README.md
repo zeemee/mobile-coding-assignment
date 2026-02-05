@@ -3,10 +3,16 @@
 We would like to assess your skills as a developer by having you build a small app for us. We will be analyzing the code for several points of interest, including general coding knowledge, maintainability, attention to detail, etc.
 
 ## General Requirements
-- The app must be native and use programmatic UIKit views; Please do not use swiftUI, xibs or storyboards
-- Develop the app in Swift compatible with iOS 15.0
-- Develop the app within a week, start to finish
-- You may use any libraries, pods, etc. that you see fit
+- iOS
+  - The app must be native and use programmatic UIKit views; Please do not use swiftUI, xibs or storyboards
+  - Develop the app in Swift compatible with iOS 15.0
+  - Develop the app within a week, start to finish
+  - You may use any libraries, pods, etc. that you see fit
+- Android
+  - The app must be native and use xml layouts; Please do not use jetpack compose
+  - The app must be backwards compatible with SDK version 24 (Android 6.0)
+  - Develop the app within a week, start to finish
+  - You may use any libraries that you see fit
 
 ## App Description
 The app consists of two screens.
@@ -28,10 +34,16 @@ The second screen will be a detail screen that shows various information on the 
 
 ![detail](https://user-images.githubusercontent.com/875775/235762162-40fa4772-a066-4898-a98b-bff7a3695eac.png)
 
+## Android Figma Note
+The figma design was made for iOS. If you are building the android version, you should be able to adjust the implementation to match the "spirit" of the design while still implementing an Android app. Match what it's trying to do but don't go so deep as to create custom views to perfectly match the design. Android-ize the design ;)
+
 ## API
 The app is to use the cocktail api here: `https://www.thecocktaildb.com/api.php`
 - Search Rest API: `https://www.thecocktaildb.com/api/json/v1/1/search.php?s=<search term>` 
 - Detail Rest API: `https://www.thecocktaildb.com/api/json/v1/1/lookup.php?i=<Entity ID>`
+
+## Questions?
+Feel free to reach out and ask for any clarification you may need.
 
 ## What To Send To Us
 Write down any assumptions or comments you have in a markdown file in the project. 
@@ -41,6 +53,6 @@ When you are ready to submit your assignment, send us the code you have written 
 You can send the code via a github url if you decide to check it into a github project, or a zipped file containing all necessary project files needed to load it in xcode and get it up and running.
 
 ## Links
-- Github: https://github.com/zeemee/zeemee-code-sample-ios
+- Github: https://github.com/zeemee/mobile-coding-assignment
 - Design: https://www.figma.com/file/au6L5XqQ0VjanC9dlgdlmI/iOS-Dev-Homework?node-id=1538%3A1354
 
